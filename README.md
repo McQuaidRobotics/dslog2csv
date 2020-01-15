@@ -1,5 +1,9 @@
-# dslog2csv
-Convert FRC DSLog files to CSV file
+# dslogparser
+Parse FIRST FRC Driver Station log files.
+
+This repository hosts 2 PyPI packages:
+* dslogparser includes the basic parsing library, plus a command line script to output CSV files
+* dslogs contains the DSlogs class which is useful for streaming log entries to "real time" application.
 
 # Reference Sources:
   https://www.chiefdelphi.com/forums/showthread.php?p=1556451
